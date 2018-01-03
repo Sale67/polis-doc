@@ -98,6 +98,10 @@ mkdir -p .poliscore
 ```
 nano .poliscore/polis.conf
 ```
+Replace:
+externalip=VPS_IP_ADDRESS
+masternodeprivkey=WALLET_GENKEY
+With your info!
 ```
 rpcuser=randuser43897ty8943
 rpcpassword=passhf95uiygr5308h08r3h0249fbgh7389h973
