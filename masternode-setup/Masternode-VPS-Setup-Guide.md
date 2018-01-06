@@ -51,6 +51,9 @@ apt-get -y install software-properties-common
 apt-add-repository -y ppa:bitcoin/bitcoin
 ```
 ```
+apt-get -y update
+```
+```
 apt-get -y install \
     wget \
     git \
