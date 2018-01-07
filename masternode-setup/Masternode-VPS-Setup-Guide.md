@@ -136,7 +136,7 @@ connect=174.138.70.155:24126
 connect=174.138.70.16:24126
 connect=45.55.247.25:24126
 ```
-CTRL X - To Save
+CTRL X to save it. Y for yes, then ENTER.
 ```
 polisd &
 ```
@@ -161,9 +161,11 @@ pip install -r requirements.txt
 ```
 crontab -e
 ```
+Hit 2. This will brin up an editor. Paste the following in it at the bottom.
 ```
 * * * * * cd /root/sentinel && ./venv/bin/python bin/sentinel.py >/dev/null 2>&1
 ```
+CTRL X to save it. Y for yes, then ENTER.
 
 3.Use `watch polis-cli getinfo` to check and wait til it's synced 
   (look for blocks number and compare with block explorer http://block.polispay.org/ )
