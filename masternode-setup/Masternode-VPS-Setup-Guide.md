@@ -166,7 +166,7 @@ crontab -e
 ```
 Hit 2. This will brin up an editor. Paste the following in it at the bottom.
 ```
-* * * * * cd /root/sentinel && ./venv/bin/python bin/sentinel.py >/dev/null 2>&1
+* * * * * cd /sentinel && ./venv/bin/python bin/sentinel.py >/dev/null 2>&1
 ```
 CTRL X to save it. Y for yes, then ENTER.
 
