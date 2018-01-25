@@ -91,16 +91,16 @@ apt-get -y install libdb4.8-dev
 apt-get -y install libdb4.8++-dev
 ```
 ```
-wget https://github.com/polispay/polis/releases/download/v1.2.0/poliscore-1.2.0-linux.zip
+wget https://github.com/polispay/polis/releases/download/v1.2.1/poliscore-1.2.1-linux64.tar.gz
 ```
 ```
-unzip poliscore-1.2.0-linux.zip
+tar -xvf poliscore-1.2.1-linux64.tar.gz
 ```
 ```
-rm poliscore-1.2.0-linux.zip
+rm poliscore-1.2.1-linux64.tar.gz
 ```
 ```
-cp poliscore-1.2.0-linux/usr/local/bin/polis{d,-cli} /usr/local/bin
+cp poliscore-1.2.1/bin/polis{d,-cli} /usr/local/bin
 ```
 ```
 cd
